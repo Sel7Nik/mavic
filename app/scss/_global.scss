@@ -35,6 +35,9 @@ body {
   overflow-x: hidden;
   position: relative;
   color: #fff;
+  @extend %ubuntu-light;
+  font-size: 17px;
+  line-height: 26;
 }
 
 .container {
