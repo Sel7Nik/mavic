@@ -37,7 +37,7 @@ body {
   color: #fff;
   @extend %ubuntu-light;
   font-size: 17px;
-  line-height: 26;
+  line-height: 26px;
 }
 
 .container {
@@ -53,6 +53,9 @@ body {
   background-size: cover;
   position: relative;
   padding: 74px 0 50px;
+  &__wraper {
+    z-index: 1;
+  }
 }
 
 .title {
